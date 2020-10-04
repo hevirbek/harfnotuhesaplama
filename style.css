@@ -1,0 +1,99 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0.5%;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
+}
+
+#uyari1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+p {
+  text-align: center;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  line-height: 80%;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: auto;
+  background-color: cyan;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tg td {
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-baqh {
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: top;
+}
+
+input {
+  font-size: 105%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 550;
+  border-color: ivory;
+  border-radius: 10%;
+}
+
+select {
+  font-size: 120%;
+  border-radius: 10%;
+}
+
+select option {
+  color: blue;
+}
+
+button {
+  font-size: 110%;
+  padding: 3%;
+  font-style: initial;
+}
+
+#SonucParagrafi {
+  font-size: 120%;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}

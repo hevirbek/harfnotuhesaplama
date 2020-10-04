@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ortalama Hesaplama</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <a href="index.html">
+    <h1>ORTALAMA HESAPLAMA</h1>
+  </a>
+  <h3>Önceki dönemlerden toplam krediniz ve ortalamanız</h3>
+  <table class="tg">
+    <tr>
+      <form name="BenimFormum" id="form-id">
+        <th class="tg-baqh0">Kredi Sayısı</th>
+        <th class="tg-0lax0">Not Ortalaması</th>
+
+    </tr>
+    <tr>
+
+      <th class="tg-baqh"><input type="text" name="GecmisKredi" autocomplete="off" /></th>
+      <th class="tg-0lax"><input type="text" name="GecmisOrtalama" autocomplete="off" /></th>
+
+    </tr>
+  </table>
+  <p id="uyari1">
+    Kredi sayılarını ve harf notlarını girmeniz yeterlidir. <br />
+    <br />
+    Ders adlarını yazmak zorunlu değildir.
+  </p>
+  <table class="tg">
+    <tr>
+      <th class="tg-baqh">Ders Adı</th>
+      <th class="tg-0lax">Kredi Sayısı</th>
+      <th class="tg-0lax">Harf Notu</th>
+    </tr>
+    <tr>
+      <th class="tg-baqh"><input type="text" /></th>
+      <th class="tg-0lax">
+        <select id="cars" name="kredi1">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </th>
+      <th class="tg-0lax">
+        <select id="cars" name="harf1">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </th>
+    </tr>
+
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi2">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf2">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi3">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf3">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi4">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf4">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi5">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf5">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi6">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf6">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi7">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf7">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi8">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf8">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi9">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf9">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td class="tg-0lax"><input type="text" /></td>
+      <td class="tg-0lax">
+        <select id="cars" name="kredi10">
+          <option value="0">Seç</option>
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option>
+          <option value="3.5">3.5</option>
+          <option value="4">4</option>
+          <option value="4.5">4.5</option>
+          <option value="5">5</option>
+          <option value="5.5">5.5</option>
+          <option value="6">6</option>
+          <option value="6.5">6.5</option>
+          <option value="7">7</option>
+        </select>
+      </td>
+      <td class="tg-0lax">
+        <select id="cars" name="harf10">
+          <option value="0">Seç</option>
+          <option value="4">AA</option>
+          <option value="3.5">BA</option>
+          <option value="3">BB</option>
+          <option value="2.5">CB</option>
+          <option value="2">CC</option>
+          <option value="1.5">DC</option>
+          <option value="1">DD</option>
+          <option value="0">FF</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th><button type="button" id="submiter" onclick="Hesapla()">Hesapla</button></th>
+    </tr>
+    </form>
+  </table>
+
+  <p id="SonucParagrafi">Dönem Ortalaması:
+    <br>
+    Genel Ortalama:
+  </p>
+  <footer>Bu sitenin tüm hakları <a target="_blank"
+      href="https://www.linkedin.com/in/h%C3%BCseyin-averbek-640a921b5/">Hüseyin
+      Averbek</a>'e aittir.</footer>
+</body>
+
+</html>
