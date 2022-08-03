@@ -1,3 +1,3 @@
 # harfnotuhesaplama
 
-http://harfnotuhesaplama.tk/
+https://hevirbek.github.io/harfnotuhesaplama/
